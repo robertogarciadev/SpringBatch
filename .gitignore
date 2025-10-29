@@ -1,10 +1,11 @@
-# Compiled class file
+### Java ###
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
-# BlueJ files
+# BlueJ
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
@@ -19,6 +20,98 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
+replay_pid*
+
+### Spring Boot ###
+# Exclude generated files
+target/
+build/
+out/
+
+# Ignore local environment configs
+application-*.yml
+application-*.yaml
+application-*.properties
+!application.yml
+!application.yaml
+!application.properties
+
+# Ignore test coverage and temporary files
+*.iml
+*.iws
+*.ipr
+*.tmp
+*.bak
+*.swp
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.class
+out/
+*.DS_Store
+
+# IntelliJ local history and caches
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests
+.idea/shelf/
+.idea/modules.xml
+.idea/compiler.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+
+# User-specific files
+*.env
+.env.local
+.env.*.local
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Gradle ###
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+gradle-app.properties
+
+### OS-specific ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+### Logs ###
+logs/
+*.log
+*.log.*
+log/
+
+### Others ###
+# JetBrains Fleet
+.fleet/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
 replay_pid*
